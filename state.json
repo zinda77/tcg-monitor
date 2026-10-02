@@ -1,0 +1,87 @@
+{
+ "products": {},
+ "stores": {
+  "https://quartierdesjouets.com": {
+   "15582082826584": false,
+   "15582183522648": false,
+   "15582088429912": false
+  }
+ },
+ "pages": {
+  "https://www.auchan.fr/recherche?text=pokemon": {
+   "https://www.auchan.fr/recherche?text=coffret%20pokemon": null,
+   "https://www.auchan.fr/pokemon-snow-hazard-sv2p-30-boosters-display-jap-scelle/pr-ea72fe73-4481-4e96-b54c-06d9019f7d6c": null,
+   "https://www.auchan.fr/pokemon-carte-a-collectionner-pokemon-deck-de-combat/pr-C1771796": null,
+   "https://www.auchan.fr/pokemon-booster-cartes-pokemon-ecarlate-et-violet/pr-C1681784": null,
+   "https://www.auchan.fr/pokemon-cartes-a-collectionner-pokemon-pack-2-boosters-blister/pr-a2f5c8e1-9b81-46e9-8eae-b5c7bf71fb5c": null,
+   "https://www.auchan.fr/pokemon-coffret-archeduc-ex/pr-C1820174": null,
+   "https://www.auchan.fr/pokemon-coffret-academie-de-combat-pokemon-2nd-edition/pr-C1490619": null,
+   "https://www.auchan.fr/pokemon-jeu-de-cartes-pokemon-coffret-palafin-ex-multicolore/pr-c10c32e5-e8e6-448d-8250-fdc801a249d4": null,
+   "https://www.auchan.fr/pokemon-cartes-a-collectionner-pokemon-booster-5-cartes-scarlet-violet-night-wanderer-sv6a-en-japonais/pr-7527140d-f3a5-48be-82f8-5ff02794f4f6": null,
+   "https://www.auchan.fr/pokemon-carte-a-collectionner-pokemon-ev-12-cahier-range-cartes-252-cartes/pr-05930112-0b55-47f1-b276-b1d21b38c6ee": null,
+   "https://www.auchan.fr/pokemon-cartes-a-collectionner-pokemon-booster-7-cartes-scarlet-violet-sv2a-en-coreen/pr-f1db2857-501d-486f-8c5d-302aa8bcecba": null,
+   "https://www.auchan.fr/pokemon-carte-a-collectionner-pokemon-ev-12-cahier-range-cartes-80-cartes/pr-404c68c0-f886-49b6-8687-92d625623e50": null,
+   "https://www.auchan.fr/pokemon-cartes-a-collectionner-pokemon-tech-sticker-3-pack-flamme-blanche/pr-ff71e19f-88a3-48f0-9d6d-7156cc1f058a": null,
+   "https://www.auchan.fr/pokemon-sv5m-display-japonais-scelle/pr-2ece0a76-de91-4392-aa03-9fa86cc1bc84": null,
+   "https://www.auchan.fr/pokemon-pokemon-pack-2-boosters-q4-25-blister-3-c-p/pr-095863c3-f6d1-44e9-8ab5-2df3460c4131": null
+  },
+  "https://www.auchan.fr/recherche?text=one+piece+carte": {
+   "__init__": true
+  },
+  "https://www.e.leclerc/recherche?q=pokemon": {
+   "__init__": true
+  },
+  "https://www.e.leclerc/recherche?q=one+piece+carte": {
+   "https://www.e.leclerc/fp/one-piece-starter-deck-22-4582769894619": null,
+   "https://www.e.leclerc/fp/one-piece-jeu-de-54-cartes-boite-de-cartes-coffret-9782017301073": null,
+   "https://www.e.leclerc/fp/one-piece-devil-fruit-collection-3-4582769912160": null,
+   "https://www.e.leclerc/fp/one-piece-op12-booster-4582769894107": null,
+   "https://www.e.leclerc/fp/one-piece-starter-deck-21-6-fr-4582769796388": null,
+   "https://www.e.leclerc/fp/one-piece-op11-booster-blister-24-fr-4582769796364": null,
+   "https://www.e.leclerc/fp/one-piece-op12-heritage-du-maitre-booster-blister-asmodee-4582769894138": null,
+   "https://www.e.leclerc/fp/cartes-a-collectionner-one-piece-op12-booster-double-pack-8-4582769894169": null
+  },
+  "https://www.lagranderecre.fr/cartes-a-collectionner/": {
+   "https://www.lagranderecre.fr/jeux-de-societe/cartes-a-collectionner/one-piece-devil-fruit-collection-vol-3-coffret-fruit-du-bistouri.html": null,
+   "https://www.lagranderecre.fr/bandai.html": null,
+   "https://www.lagranderecre.fr/jeux-de-societe/cartes-a-collectionner/one-piece-starter-deck-29.html": null,
+   "https://www.lagranderecre.fr/jeux-de-societe/cartes-a-collectionner/pack-2-boosters-piece-ronflex-carte-zarude-pokemon.html": null,
+   "https://www.lagranderecre.fr/jeux-de-societe/cartes-a-collectionner/pokemon-coffret-collection-prenium-mega-amphinobi-ex.html": null,
+   "https://www.lagranderecre.fr/jeux-de-societe/cartes-a-collectionner/starter-deck-one-piece-s22-equipage-de-barbe-blanche.html": null
+  },
+  "https://www.play-in.com/fr/gamme/3/pokemon": {
+   "https://www.play-in.com/fr/produit/670423/booster-pokemon-30-ans-30th-celebration-m6a-cn": null,
+   "https://www.play-in.com/fr/produit/670427/display-de-20-boosters-pokemon-30-ans-30th-celebration-m6a-cn": null,
+   "https://www.play-in.com/fr/produit/674512/pack-de-2-boosters-ectoplasma-mimiqui-et-marshadow-pokemon-fr": null,
+   "https://www.play-in.com/fr/produit/667986/display-de-30-boosters-pokemon-mega-storm-emeralda-m6-ko": null,
+   "https://www.play-in.com/fr/produit/667987/booster-pokemon-mega-storm-emeralda-m6-ko": null,
+   "https://www.play-in.com/fr/produit/674995/bundle-6-boosters-pokemon-mega-evolution-regne-delta-me06-fr": null,
+   "https://www.play-in.com/fr/produit/674996/coffret-dresseur-d-elite-etb-pokemon-mega-evolution-regne-delta-me06-fr": null,
+   "https://www.play-in.com/fr/produit/674999/tripack-pokemon-mega-evolution-regne-delta-me06-otaria-fr": null,
+   "https://www.play-in.com/fr/produit/674993/display-de-36-boosters-pokemon-mega-evolution-regne-delta-me06-fr": null,
+   "https://www.play-in.com/fr/produit/674992/booster-pokemon-mega-evolution-regne-delta-me06-fr": null,
+   "https://www.play-in.com/fr/produit/659418/collection-k-o-30-ans-evoli-pokemon-fr": null,
+   "https://www.play-in.com/fr/produit/659643/collection-premium-metamorph-30-ans-pokemon-fr": null,
+   "https://www.play-in.com/fr/produit/659644/coffret-collection-ultra-premium-pokemon-30-ans-journee-mentali-fr": null,
+   "https://www.play-in.com/fr/produit/650371/tripack-pokemon-nuit-noire-me5-opermine-fr": null,
+   "https://www.play-in.com/fr/produit/650372/coffret-dresseur-d-elite-etb-pokemon-nuit-noire-me5-fr": null,
+   "https://www.play-in.com/fr/produit/650373/bundle-6-boosters-pokemon-nuit-noire-me5-fr": null,
+   "https://www.play-in.com/fr/produit/658001/booster-blister-pokemon-nuit-noire-me5-fr": null,
+   "https://www.play-in.com/fr/produit/650369/display-de-36-boosters-mega-evolution-nuit-noire-pokemon-fr": null,
+   "https://www.play-in.com/fr/produit/650368/booster-pokemon-nuit-noire-me5-fr": null,
+   "https://www.play-in.com/fr/produit/667142/booster-blister-pokemon-equilibre-parfait-me3-fr": null,
+   "https://www.play-in.com/fr/produit/637211/coffret-dresseur-d-elite-etb-pokemon-equilibre-parfait-me3-fr": null,
+   "https://www.play-in.com/fr/produit/637216/bundle-6-boosters-pokemon-equilibre-parfait-me3-fr": null,
+   "https://www.play-in.com/fr/produit/637208/display-de-36-boosters-pokemon-equilibre-parfait-me3-fr": null,
+   "https://www.play-in.com/fr/produit/637207/booster-pokemon-equilibre-parfait-me3-fr": null
+  },
+  "https://www.play-in.com/fr/gamme/24/one-piece/catalogue": {
+   "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": false,
+   "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": false,
+   "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": true,
+   "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": true,
+   "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr": null
+  }
+ },
+ "resale_cache": {}
+}
