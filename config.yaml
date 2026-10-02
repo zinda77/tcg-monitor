@@ -1,0 +1,77 @@
+# ============ TCG MONITOR - CONFIGURATION ============
+# Le script relit ce fichier à chaque passage : pas besoin de le redémarrer après une modif.
+
+# Mots qui identifient chaque franchise dans le nom d'un produit (sans accents, minuscules)
+franchises:
+  pokemon: [pokemon]
+  onepiece: ["one piece", "onepiece"]
+
+# Produits ignorés (accessoires, manga, figurines...)
+exclude: [sleeve, "protege-carte", "protege carte", classeur, portfolio, peluche, figurine, funko, "t-shirt",
+          sweat, "deck box", playmat, tapis, "porte-cle", tome, manga, dvd, "blu-ray", poster, puzzle, mug,
+          toniebox, rangement, autocollant, "lot de cartes"]
+
+# Estimation de revente
+resale:
+  fees_pct: 10          # frais de vente estimés en % (commission plateforme + paiement)
+  shipping_cost: 0      # frais d'envoi à ta charge par produit, en €
+  min_margin: 10        # marge nette minimale (€) pour afficher "✅ Rentable"
+  cache_hours: 12       # durée de conservation d'une estimation eBay
+  # Tes prix de revente à toi, prioritaires sur eBay (ex. relevés sur Vinted ou Cardmarket).
+  # Mot-clé présent dans le nom du produit : prix en €
+  reference_prices:
+    # "151 coffret dresseur": 120
+    # "op-09 display": 180
+
+# Termes recherchés sur chaque site de watch_pages ({q} dans l'URL)
+search_terms: ["pokemon", "one piece carte"]
+
+# Pages de recherche surveillées : détecte les NOUVELLES fiches produit Pokémon / One Piece.
+# Les adresses sont à valider avec : python monitor.py --diagnose
+# (les grands sites chargent souvent leurs résultats en JavaScript ou bloquent les robots : le diagnostic le dira)
+watch_pages:
+  # ✅ validés depuis le Mac le 02/10/2026
+  - { name: "Auchan",           url: "https://www.auchan.fr/recherche?text={q}" }
+  - { name: "E.Leclerc",        url: "https://www.e.leclerc/recherche?q={q}" }
+  - { name: "La Grande Récré",  url: "https://www.lagranderecre.fr/cartes-a-collectionner/" }   # la recherche du site est en JavaScript : page catégorie
+  - { name: "Play-in Pokémon",  url: "https://www.play-in.com/fr/gamme/3/pokemon", link_pattern: "/produit/" }
+  - { name: "Play-in One Piece", url: "https://www.play-in.com/fr/gamme/24/one-piece/catalogue", link_pattern: "/produit/" }
+  # ❌ bloqué (refuse les robots, HTTP 403/429) : on ne contourne pas
+  # - { name: "Fnac",           url: "https://www.fnac.com/SearchResult/ResultList.aspx?Search={q}" }   # bloqué
+  # - { name: "Cultura",        url: "https://www.cultura.com/search/results?search_query={q}" }      # bloqué
+  # - { name: "King Jouet",     url: "https://www.king-jouet.com/recherche?q={q}" }                   # bloqué
+  # - { name: "Carrefour",      url: "https://www.carrefour.fr/s?q={q}" }                             # bloqué
+  # - { name: "Cdiscount",      url: "https://www.cdiscount.com/search/10/{q}.html" }                 # bloqué
+  # - { name: "Amazon",         url: "https://www.amazon.fr/s?k={q}" }                                # bloqué (page anti-robot)
+  # ⚠️ produits chargés en JavaScript : illisibles par le script
+  # - { name: "Micromania",     url: "https://www.micromania.fr/search?q={q}" }
+  # - { name: "Smyths Toys",    url: "https://www.smythstoys.com/fr/fr-fr/search/?text={q}" }
+  # - { name: "JouéClub",       url: "https://www.joueclub.fr/nos-heros/pokemon.html" }
+  # - { name: "Le Temple du Jeu", url: "https://www.letempledujeu.fr" }   # pas d'adresse de recherche lisible trouvée
+  # Jouets Sajou redirige vers quartierdesjouets.com (Shopify) : voir shopify_stores
+
+# Boutiques Shopify scannées EN ENTIER : nouveautés + restocks, avec ajout au panier en un clic
+# (test : ajoute /products.json à l'adresse du site ; si tu vois du texte JSON, c'est du Shopify)
+shopify_stores:
+  - name: "Quartier des Jouets (ex-Jouets Sajou)"
+    url: "https://quartierdesjouets.com"
+  # - name: "Nom de la boutique"
+  #   url: "https://adresse-de-la-boutique.fr"
+
+# Produits précis à surveiller
+products:
+  # Sur une boutique Shopify :
+  # - name: "Display OP-09"
+  #   url: "https://adresse-de-la-boutique.fr/products/display-op-09"
+  #   type: shopify
+  #   resale_price: 180            # optionnel : ton prix de revente
+  #   resale_query: "display op-09 francais"   # optionnel : recherche eBay personnalisée
+  #
+  # Sur un autre site (Fnac, Cultura, Micromania, King Jouet...) :
+  # - name: "ETB Exemple - Cultura"
+  #   url: "https://www.cultura.com/..."
+  #   type: generic
+  #   franchise: pokemon           # pokemon ou onepiece
+  #   # Si la détection auto du stock échoue, ajoute UNE de ces lignes :
+  #   # out_of_stock_text: "indisponible"
+  #   # in_stock_text: "ajouter au panier"
