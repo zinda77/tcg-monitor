@@ -37,7 +37,8 @@
    "https://www.auchan.fr/recherche?text=pokemon%20coffret%20dresseur": null
   },
   "https://www.auchan.fr/recherche?text=one+piece+carte": {
-   "__init__": true
+   "__init__": true,
+   "https://www.auchan.fr/one-piece-boite-de-cartes-a-collectionner-one-piece-jcc-op-17-24-boosters/pr-f2f696e8-7ba7-4ae1-ac42-d20a7d944233": null
   },
   "https://www.e.leclerc/recherche?q=pokemon": {
    "__init__": true
