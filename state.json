@@ -44,7 +44,8 @@
   },
   "https://www.auchan.fr/recherche?text=one+piece+carte": {
    "__init__": true,
-   "https://www.auchan.fr/one-piece-boite-de-cartes-a-collectionner-one-piece-jcc-op-17-24-boosters/pr-f2f696e8-7ba7-4ae1-ac42-d20a7d944233": null
+   "https://www.auchan.fr/one-piece-boite-de-cartes-a-collectionner-one-piece-jcc-op-17-24-boosters/pr-f2f696e8-7ba7-4ae1-ac42-d20a7d944233": null,
+   "https://www.auchan.fr/one-piece-deck-de-demarrage-n22-avec-cartes-bonus-one-piece/pr-ed408fef-a31e-4199-a903-05d3a599ae1a": null
   },
   "https://www.e.leclerc/recherche?q=pokemon": {
    "__init__": true
@@ -123,8 +124,8 @@
    "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr": null,
    "https://www.play-in.com/fr/produit/617686/display-de-24-boosters-one-piece-tcg-successeurs-op-13-fr": null,
    "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr": null,
-   "https://www.play-in.com/fr/produit/674769/extra-booster-one-piece-tcg-heroines-edition-vol-2-eb-05-fr": false,
-   "https://www.play-in.com/fr/produit/674770/display-de-24-extra-boosters-one-piece-tcg-heroines-edition-vol-2-eb-05-fr": false,
+   "https://www.play-in.com/fr/produit/674769/extra-booster-one-piece-tcg-heroines-edition-vol-2-eb-05-fr": true,
+   "https://www.play-in.com/fr/produit/674770/display-de-24-extra-boosters-one-piece-tcg-heroines-edition-vol-2-eb-05-fr": true,
    "https://www.play-in.com/fr/produit/674774/display-de-24-extra-boosters-one-piece-tcg-heroines-edition-vol-2-eb-05-en": false,
    "https://www.play-in.com/fr/produit/674773/extra-booster-one-piece-tcg-heroines-edition-vol-2-eb-05-en": false,
    "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": true,
