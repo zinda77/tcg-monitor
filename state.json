@@ -126,8 +126,8 @@
   "https://www.play-in.com/fr/gamme/24/one-piece/catalogue": {
    "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": false,
    "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": false,
-   "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": true,
-   "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": true,
+   "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": null,
+   "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": null,
    "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr": null,
    "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr": null,
    "https://www.play-in.com/fr/produit/617686/display-de-24-boosters-one-piece-tcg-successeurs-op-13-fr": null,
@@ -137,7 +137,13 @@
    "https://www.play-in.com/fr/produit/674774/display-de-24-extra-boosters-one-piece-tcg-heroines-edition-vol-2-eb-05-en": false,
    "https://www.play-in.com/fr/produit/674773/extra-booster-one-piece-tcg-heroines-edition-vol-2-eb-05-en": false,
    "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": false,
-   "https://www.play-in.com/fr/produit/663248/booster-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": false
+   "https://www.play-in.com/fr/produit/663248/booster-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": false,
+   "https://www.play-in.com/fr/produit/685642/double-pack-set-one-piece-tcg-13-la-domination-de-dieu-op-18-fr": true,
+   "https://www.play-in.com/fr/produit/685638/display-de-24-boosters-one-piece-tcg-la-domination-de-dieu-op-18-fr": true,
+   "https://www.play-in.com/fr/produit/685639/booster-one-piece-tcg-la-domination-de-dieu-op-18-fr": true,
+   "https://www.play-in.com/fr/produit/685643/double-pack-set-one-piece-tcg-13-la-domination-de-dieu-op-18-en": true,
+   "https://www.play-in.com/fr/produit/685641/booster-one-piece-tcg-la-domination-de-dieu-op-18-en": false,
+   "https://www.play-in.com/fr/produit/685640/display-de-24-boosters-one-piece-tcg-la-domination-de-dieu-op-18-en": false
   }
  },
  "resale_cache": {}
